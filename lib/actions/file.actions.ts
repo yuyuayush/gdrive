@@ -69,8 +69,8 @@ const createQueries = (
 ) => {
   const queries = [
     Query.or([
-      Query.equal("owner", [currentUser.$id]),
-      Query.contains("users", [currentUser.email]),
+      // Query.equal("owner", [currentUser.$id]),
+      // Query.contains("users", [currentUser.email]),
     ]),
   ];
 
